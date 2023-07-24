@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+  height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-card{
+  height: 550px;
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 20px 20px 0px hsla(224, 27%, 65%, 0.048);
+}
+.pix{
+  height: 170px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-image: url(images/illustration-hero.svg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.card-details{
+  background-color: white;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  padding: 10px 35px 10px 25px;
+  height: 360px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.main-heading{
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 20px;
+}
+
+.main-paragraph{
+  font-size: 0.85rem;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 35px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.subbox{
+  width:  260px;
+  height: 77px;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-evenly ;
+  margin-bottom: 20px;
+  align-items: center;
+  background-color:hsla(224, 23%, 55%, 0.062);
+  border-radius: 10px;
+}
+
+.music-icon{
+ width: 12px;
+}
+.sub{
+  display: flex;
+  flex-direction: column;
+  width: 78px;
+  padding-left: 10px;
+  
+}
+.plan{
+  color:hsl(223, 47%, 23%) ;
+  font-weight: 900;
+  font-size: 0.83rem;
+  
+}
+.price{
+  color: hsl(224, 23%, 55%);
+}
+.change{
+  color: hsl(245, 75%, 52%) ;
+  font-weight: 900;
+  text-decoration: underline;
+}
+.change:hover{
+  cursor: pointer;
+}
+
+
+.btn{
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  height: 47px;
+  width: 260px;
+  font-weight: 700;
+  font-size: 0.80rem;
+  font-family:  'Red Hat Display', sans-serif ;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: -4px;
+  box-shadow: 0px 20px 0px hsla(224, 48%, 64%, 0.068);
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+.order{
+  font-size: 0.85rem;
+  color:  hsl(224, 23%, 55%);
+  font-weight: 900;
+}
+.order:hover{
+  cursor: pointer;
+}
+.attribution { font-size: 15px;
+  font-family: 'Red Hat Display'; 
+  text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and ( min-width: 600px){
+ .main-card{
+  width: 370px;}
+
+.subbox{
+  width: 320px;
+  
+}
+.btn{
+  width: 320px;
+  
+}
+}
+
+
+
+
